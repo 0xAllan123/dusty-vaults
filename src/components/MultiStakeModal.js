@@ -8,7 +8,6 @@ import Web3Modal from "web3modal"
 import { ethers } from "ethers"
 import { SMARTCONTRACT_ABI, SMARTCONTRACT_ABI_ERC20, SMARTCONTRACT_ADDRESS, SMARTCONTRACT_ADDRESS_ERC20 } from "../../config"
 import Swal from "sweetalert2"
-import Confetti from "react-confetti"
 import { showConfetti } from "../hook/ethereum"
 
 export default function MultiStakeModal({
